@@ -19,6 +19,14 @@ body {
 
 #nav {
   background-color: $ft-bg;
+
+  div {
+    div {
+      div {
+        width: 100%;
+      }
+    }
+  }
 }
 
 #container {
@@ -67,7 +75,7 @@ body {
     section {
       padding-top: 10em;
 
-      p{
+      p {
         text-align: center;
         font-size: x-large;
 
@@ -94,20 +102,20 @@ body {
   }
 
   #content-profile {
-    .title-header{
+    .title-header {
       transition: color 1s ease;
     }
 
-    .title-header:hover{
+    .title-header:hover {
       color: $bootstrap-green;
     }
 
-    h1{
+    h1 {
       text-align: center;
       padding-top: 5em;
     }
 
-    p{
+    p {
       text-align: center;
       font-size: x-large;
 
